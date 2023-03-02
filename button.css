@@ -1,61 +1,64 @@
-
-
 button {
-  border: 1px solid #ccc;
-  background-color: white;
-  border-radius: 4px;
-  height: 32px;
-  cursor: pointer;
-  min-width: 62px;
-  color: inherit;
-  transition: 0.3s;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+    height: 32px;
+    cursor: pointer;
+    min-width: 62px;
+    color: inherit;
+    transition: 0.3s;
 }
 button:hover {
-  background-color: rgb(241, 241, 241);
+    background-color: rgb(241, 241, 241);
 }
 button:disabled {
-  cursor: auto;
-  background-color: rgb(230, 230, 230) !important;
-  border: 1px solid #ccc !important;
-  color: gray !important;
+    cursor: auto;
+    background-color: rgb(230, 230, 230) !important;
+    border: 1px solid #ccc !important;
+    color: gray !important;
 }
 button:disabled:hover {
-  cursor: auto;
-  background-color: rgb(230, 230, 230) !important;
-  border: 1px solid #ccc !important;
-  color: gray !important;
+    cursor: auto;
+    background-color: rgb(230, 230, 230) !important;
+    border: 1px solid #ccc !important;
+    color: gray !important;
 }
 .-primary {
-  color: #fff;
-  background-color: #337ab7 !important;
-  border-color: #2e6da4 !important;
+    color: #fff;
+    background-color: #337ab7 !important;
+    border-color: #2e6da4 !important;
 }
 .-primary:hover {
-  background-color: #306594 !important;
+    background-color: #306594 !important;
 }
 .-danger {
-  color: #fff;
-  background-color: #f05e65 !important;
-  border-color: #db434b !important;
+    color: #fff;
+    background-color: #f05e65 !important;
+    border-color: #db434b !important;
 }
 .-danger:hover {
-  background-color: #da4950 !important;
+    background-color: #da4950 !important;
 }
 .-default {
-  color: #333;
-  background-color: #fff !important;
-  border-color: #ccc !important;
+    color: #333;
+    background-color: #fff !important;
+    border-color: #ccc !important;
 }
 .-default:hover {
-  background-color: #ebebeb !important;
+    background-color: #ebebeb !important;
 }
 input,
 select {
-  padding: 5px;
-  color: #444444;
-  border: 1px solid #cccccc;
-  background-color: white;
+    padding: 5px;
+    color: #444444;
+    border: 1px solid #cccccc;
+    background-color: white;
 }
 select {
-  height: 32px;
+    height: 32px;
+}
+
+table td, table th {
+    text-align: center;
+    white-space: nowrap;
 }
