@@ -77,7 +77,7 @@ function connectTo(id) {
             appendRule(id, data.data, 'main');
             appendRule(id, data.data, 'vendor');
             appendRule(id, data.data, 'runtime');
-            // appendRule(id, data.data, 'polyfills');
+            appendRule(id, data.data, 'polyfills');
             console.log(`[${domain}] ${data.data}`);
         }
     };
